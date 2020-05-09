@@ -6,6 +6,7 @@
 		</div>
 		<div class="container row">
 			<card v-for="post in allPosts" :key="post.id" :post="post" class="ml-auto mr-auto" />
+			<button class="btn btn-danger" v-scroll-to="'body'">Back to top</button>
 		</div>
 	</div>
 </template>
